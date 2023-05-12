@@ -1,0 +1,39 @@
+.contacts__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts__list_item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.contacts__list_item::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #896a67;
+  border-radius: 50%;
+}
+
+.list__button {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  padding: 4px 8px;
+  background-color: #33354c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.list__button:hover {
+  background-color: #1f202e;
+}

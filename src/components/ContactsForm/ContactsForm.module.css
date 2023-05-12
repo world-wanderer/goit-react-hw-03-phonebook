@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.form__input {
+  padding: 8px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form__button {
+  width: 150px;
+  padding: 8px 16px;
+  background-color: #839788;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #73877b;
+}

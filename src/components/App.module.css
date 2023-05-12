@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.content__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+
+  color: #040b46;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #dddbdb;
+
+  box-shadow: 0 1px 0 rgba(9, 9, 33, 0.1), 0 8px 24px rgba(17, 17, 26, 0.1),
+    0 16px 48px rgba(17, 17, 26, 0.1);
+}
